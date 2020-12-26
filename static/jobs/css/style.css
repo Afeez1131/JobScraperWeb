@@ -1,0 +1,35 @@
+ body a {
+ 	text-decoration: none;
+ }
+
+
+.row h4 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 900;
+	color: #9d261d;
+}
+
+.row h5 {
+	font-family: 'Baloo 2', cursive;
+	text-align: justify;
+}
+
+.jumbotron {
+    background: #9d261d;
+    border-bottom: 1px solid #721c15;
+	background-color: #99251c;
+	background-repeat: repeat-x;
+	background-image: linear-gradient(-40deg, #9d261d, #99251c);
+	text-shadow: 2px 2px 2px #333333;
+	font-size: 14px;
+	color: white;
+	padding:50px;
+	margin-top: 60px;
+}
+.jumbotron-fluid {
+	padding-left: 0;
+	padding-right:0;
+}
+.jumbotron h1{
+	text-align: center;
+}
