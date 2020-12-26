@@ -14,6 +14,7 @@ def job_filter():
 	# 	print(s.url)
 
 	search_q = JobModel.objects.filter(Q(field__contains='IT and ') | Q(field__contains = 'Software') | Q(field__contains='creative and design') | Q(field__contains='engineering & technology'))
+	#search through all the models objects i.e, JobModel and use Q to search for the object containing ***
 	message = dict()
 	message_list = list()
 	for ch in search_q:
@@ -22,5 +23,5 @@ def job_filter():
 		message['date'] = (ch.date)
 		message_list.append(message)
 		message_list.append('\n')
-	return str(message_list)
+	return str(message_list)	# convert the listed dictionary into a string
 job_filter()
