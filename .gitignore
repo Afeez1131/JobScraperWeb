@@ -1,3 +1,4 @@
 #Ignore environmental variables i.e .env
 
 .env
+*.sqlite3
