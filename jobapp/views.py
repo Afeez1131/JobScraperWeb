@@ -22,6 +22,6 @@ def job_filter():
 		message['url'] = (ch.url)
 		message['date'] = (ch.date)
 		message_list.append(message)
-		message_list.append('\n')
+	print(message_list)
 	return str(message_list)	# convert the listed dictionary into a string
 job_filter()

@@ -2,3 +2,6 @@
 
 .env
 *.sqlite3
+jobs/__pycache__
+broadcast/__pycache__
+jobapp/__pycache__
